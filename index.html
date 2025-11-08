@@ -1,124 +1,128 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" type="image/png" href="day-and-night.png" sizes="64x64">
-
-  <title>Pós-Sol & Lua</title>
-
-  <!-- Fonte Poppins -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Poppins', sans-serif;
-    }
-
-    html, body {
-      height: 100%;
-      overflow-x: hidden;
-      color: #fff;
-      text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
-    }
-
-    .background-video {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      z-index: -1;
-      filter: brightness(60%);
-    }
-
-    .content {
-      position: relative;
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 40px 20px;
-      background: rgba(0, 0, 0, 0.4);
-      border-radius: 16px;
-      backdrop-filter: blur(5px);
-    }
-
-    h1 {
-      font-size: 1.8rem;
-      margin-bottom: 1rem;
-      text-align: center;
-      font-weight: 600;
-    }
-
-    h2 {
-      font-size: 1.4rem;
-      margin-top: 1.5rem;
-      margin-bottom: 0.8rem;
-      font-weight: 500;
-    }
-
-    p {
-      line-height: 1.6;
-      margin-bottom: 1rem;
-      font-size: 1rem;
-    }
-
-    strong {
-      color: #ffda79;
-      font-weight: 600;
-    }
-
-    @media (max-width: 768px) {
-      .content {
-        padding: 20px;
-        margin: 20px;
-      }
-
-      h1 {
-        font-size: 1.4rem;
-      }
-
-      h2 {
-        font-size: 1.1rem;
-      }
-
-      p {
-        font-size: 0.95rem;
-      }
-    }
-  </style>
-</head>
-<body>
-  <video id="bgVideo" class="background-video" autoplay loop muted playsinline>
-    <source src="background.mp4" type="video/mp4">
-    Seu navegador não suporta vídeos em HTML5.
-  </video>
-  <div class="content">
-    <h1>Pós-Sol & Lua – Regeneração e Hidratação que Nunca Dormem</h1>
-    <h2>Cuidado integral, dia e noite 🌗</h2>
-
-    <p><strong>☀️ Sobre a luz do sol:</strong> O calor intenso resseca, causa pequenas rachaduras e pode apagar o brilho natural dos lábios.</p>
-    <p><strong>🌤️ Após o sol:</strong> Quando os lábios precisam de alívio e socorro, a fórmula atua profundamente, regenerando, restaurando o conforto e a hidratação perdida.</p>
-    <p><strong>🌙 Sobre a luz da lua:</strong> O frio e o vento desafiam a pele, mas a hidratação se renova, preservando a umidade natural e mantendo os lábios macios.</p>
-    <p><strong>🌘 Após a lua:</strong> Regeneração e hidratação que nunca dormem — o cuidado continua, deixando os lábios prontos para um novo amanhecer.</p>
-
-    <p>O Pós-Sol & Lua foi criado para cuidar dos lábios em todos os momentos do dia e da noite. Sua fórmula combina ingredientes que hidratam, regeneram e protegem, ajudando a manter a aparência saudável em todos os climas e estações do ano.</p>
-
-    <h2>Principais Componentes</h2>
-
-    <p><strong>Seiva de Dragão:</strong> Ingrediente de origem vegetal com ação cicatrizante e protetora. Atua na regeneração da pele dos lábios, ajudando na recuperação das áreas ressecadas e reduzindo o desconforto causado por rachaduras.</p>
-
-    <p><strong>Manteiga de Karité e Cera de Carnaúba:</strong> Trabalham juntas para garantir hidratação duradoura e proteção dos lábios, criando uma barreira natural contra a perda de umidade.</p>
-
-    <p><strong>Óleo de Semente de Uva:</strong> Rico em antioxidantes e vitamina E, nutre e regenera áreas ressecadas, promovendo suavidade e conforto.</p>
-
-    <p><strong>Vitamina E:</strong> Antioxidante essencial que protege contra o envelhecimento precoce e conserva a hidratação natural, mantendo os lábios lisos e saudáveis.</p>
-
-    <h2>A essência do cuidado contínuo</h2>
-    <p>O Pós-Sol & Lua traduz a harmonia entre regeneração, hidratação e proteção, mantendo o cuidado ativo em todos os momentos. Representa um gesto de bem-estar que acompanha o ritmo natural do tempo — regeneração e hidratação que nunca dormem.</p>
-  </div>
-</body>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="icon" type="image/png" href="day-and-night.png" sizes="64x64">
+      <title>Pós-Sol & Lua</title>
+      <!-- Fonte Poppins -->
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+      <style>
+         * {
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+         font-family: 'Poppins', sans-serif;
+         }
+         html, body {
+         height: 100%;
+         overflow-x: hidden;
+         color: #fff;
+         text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
+         }
+         .background-video {
+         position: fixed;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+         z-index: -1;
+         filter: brightness(60%);
+         }
+         .content {
+         text-align: justify;
+         position: relative;
+         max-width: 800px;
+         margin: 0 auto;
+         padding: 40px 20px;
+         background: rgba(0, 0, 0, 0.4);
+         border-radius: 16px;
+         backdrop-filter: blur(5px);
+         }
+         h1 {
+         font-size: 1.8rem;
+         margin-bottom: 1rem;
+         text-align: center;
+         font-weight: 600;
+         }
+         h2 {
+         font-size: 1.4rem;
+         margin-top: 1.5rem;
+         margin-bottom: 0.8rem;
+         font-weight: 500;
+         }
+         p {
+         line-height: 1.6;
+         margin-bottom: 1rem;
+         font-size: 1rem;
+         }
+         strong {
+         color: #ffda79;
+         font-weight: 600;
+         }
+         @media (max-width: 768px) {
+         .content {
+         padding: 20px;
+         margin: 20px;
+         }
+         h1 {
+         font-size: 1.4rem;
+         }
+         h2 {
+         font-size: 1.1rem;
+         }
+         p {
+         font-size: 0.95rem;
+         }
+         }
+      </style>
+   </head>
+   <body>
+      <video id="bgVideo" class="background-video" autoplay loop muted playsinline>
+         <source src="background.mp4" type="video/mp4">
+         Seu navegador não suporta vídeos em HTML5.
+      </video>
+      <div class="content">
+         <h1>Pós-Sol & Lua – Regeneração e Hidratação que Nunca Dormem</h1>
+         <h2>Cuidado integral, dia e noite 🌗</h2>
+         <p><strong>☀️ Sobre a luz do sol:</strong> O calor intenso resseca, causa pequenas rachaduras e pode apagar o brilho natural dos lábios.</p>
+         <p><strong>🌤️ Após o sol:</strong> Quando os lábios precisam de alívio e socorro, a fórmula atua profundamente, regenerando, restaurando o conforto e a hidratação perdida.</p>
+         <p><strong>🌙 Sobre a luz da lua:</strong> O frio e o vento desafiam a pele, mas a hidratação se renova, preservando a umidade natural e mantendo os lábios macios.</p>
+         <p><strong>🌘 Após a lua:</strong> Regeneração e hidratação que nunca dormem — o cuidado continua, deixando os lábios prontos para um novo amanhecer.</p>
+         <p style="text-align: justify;">
+            O <strong>Pós-Sol & Lua</strong> foi desenvolvido para cuidar dos lábios em todos os momentos do dia e da noite. 
+            Sua fórmula combina ingredientes que hidratam, regeneram e protegem, ajudando a manter a aparência saudável 
+            em qualquer clima e estação do ano. Tanto o calor quanto o frio podem causar ressecamento e rachaduras, 
+            mas o <strong>Pós-Sol & Lua</strong> forma uma camada suave de proteção que mantém a umidade natural, 
+            devolve conforto e maciez e evita aquela sensação de lábios secos e sensíveis. 
+            O resultado é uma regeneração e hidratação profunda — que nunca dormem —, mantendo os lábios bonitos, 
+            nutridos e sempre prontos para um novo amanhecer.
+         </p>
+         <h2>Principais Componentes</h2>
+         <p><strong>Seiva de Dragão:</strong> É um ingrediente de origem vegetal conhecido pela sua ação cicatrizante e protetora. 
+            Ela atua na regeneração da pele dos lábios, ajudando na recuperação das áreas ressecadas e reduzindo o desconforto
+            causado por rachaduras. Ao formar uma película protetora delicada, mantém a hidratação e favorece o processo natural
+            de reparo, devolvendo maciez e aspecto saudável. Por isso, é considerada um dos componentes mais valiosos na fórmula do Pós-Sol & Lua.
+         </p>
+         <p><strong>Manteiga de Karité e Cera de Carnaúba:</strong> Trabalham em conjunto para garantir uma hidratação duradoura e a
+            proteção dos lábios. Ricas em ácidos graxos e vitaminas, criam uma barreira natural que previne a perda de umidade e
+            proporciona toque macio e confortável. Esses ingredientes ajudam a restaurar a elasticidade e a aparência saudável,
+            deixando os lábios nutridos e protegidos
+         </p>
+         <p><strong>Óleo de Semente de Uva:</strong> É leve e rico em antioxidantes e vitamina E natural. Ajuda a nutrir e regenerar pequenas
+            áreas ressecadas, promovendo conforto e suavidade logo após a aplicação. Sua rápida absorção mantém a hidratação sem
+            deixar sensação pegajosa, proporcionando lábios mais suaves e saudáveis.
+         </p>
+         <p><strong>Vitamina-E:</strong> É um antioxidante essencial que protege contra o envelhecimento precoce e ajuda a conservar a
+            hidratação natural. Nos lábios, auxilia na regeneração celular e na recuperação da maciez, garantindo uma aparência
+            lisa e saudável. Sua presença reforça o poder de regeneração e hidratação do Pós-Sol & Lua.
+         </p>
+         <h2>A essência do cuidado contínuo</h2>
+         <p style="text-align: justify;">O <strong>Pós-Sol & Lua</strong> traduz a harmonia entre regeneração, hidratação e proteção, mantendo o cuidado ativo em
+            todos os momentos. Mais do que um produto, representa um gesto de atenção e bem-estar que acompanha o ritmo natural do tempo.
+            Com cuidado integral, dia e noite.
+         </p>
+      </div>
+   </body>
 </html>
